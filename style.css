@@ -23,6 +23,8 @@ figure {
  margin: 0;
  /* set your width */
  width: 33%;
+ background-color: aqua;
+ border-radius: 10px;
 }
   
 /* Backdrop for modal overlay */
