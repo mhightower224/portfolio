@@ -1,9 +1,7 @@
 /* Your Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-/* diagnostic styling. remove when done */
-* {
-    outline: 1px dotted gray;
-}
 
 /* Layout with css grid */
 body {
@@ -23,8 +21,8 @@ figure {
  margin: 0;
  /* set your width */
  width: 33%;
- background-color: aqua;
- border-radius: 10px;
+ background-color: #FFE8D6;
+ border-radius: 25px;
 }
   
 /* Backdrop for modal overlay */
@@ -35,4 +33,14 @@ figure {
 /* Animation */
 dialog {
     animation: fadeIn 1s;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #6B705C;
+}
+
+figcaption{
+    font-family: 'Lato', sans-serif;
+    color: #6B705C;
 }
